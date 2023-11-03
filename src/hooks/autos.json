@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "marca": "Chevrolet",
+      "modelo": [
+        "Camaro",
+        "Tahoe"
+      ] 
+    },
+    {
+      "marca": "Toyota",
+      "modelo": [
+        "Supra mk5",
+        "Corolla Cross"
+      ] 
+    },
+    {
+      "marca": "Ford",
+      "modelo": [
+        "Mustang",
+        "Bronco"
+      ] 
+    },
+    {
+      "marca": "Lexus",
+      "modelo": [
+        "RX 500H",
+        "LX 550D F-SPORT"
+      ] 
+    },
+    {
+      "marca": "Volkswagen",
+      "modelo": [
+        "T-Cross",
+        "Amarok"
+      ] 
+    }
+    
+  ]
+}

@@ -7,17 +7,17 @@ export const Nav = styled.nav`
   color: #002EFF;
   display: flex;
   align-items: center;
-  min-width: 100vw;
-  height: 90px;
-  position: fixed;
+  position:fixed;
+  width: 100%;
   top: 0;
+  height: 90px;
   box-shadow: 0px 4px 10px 0px #00000026;
 `;
 
 export const NavLogo = styled.img`
   width: 53.44px;
   height: 40px;
-  padding: 25px 49px;
+  margin-left: 50px;
 `;
 export const NavStyledLinkContainer = styled.div`
   display: flex;
@@ -57,26 +57,25 @@ export const NavStyledLink = styled(Link)`
 
 // Title Styles
 export const TitleContainer = styled.div`
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 560px 450px;
   color: #002EFF;
-  width: 100vw;
-  height: 250px;
-  position: fixed;
-  top: 170px;
+  width: 100%;
+  height: 190px;
+  border-bottom: 1px solid #CCCCCC;
+  margin: 0 auto;
   justify-content: center;
+  align-content: center;
   align-items: center;
-  border-bottom: 1px solid #CCCCCC
+  justify-items: center;
+  margin-top: 150px;
 `;
 export const TitleLetter = styled.h1`
-  font-family: Barlow;
   font-size: 56px;
   font-weight: 400;
   line-height: 67px;
   letter-spacing: 0em;
   text-align: left;
-  margin: 0;
-  padding-right: 100px;
 `;
 export const TitleSpan = styled.span`
   font-family: Barlow;
@@ -87,12 +86,7 @@ export const TitleSpan = styled.span`
   text-align: left;
 `;
 export const TitleStyledImg = styled.img`
-  width: Fixed (424px);
-  height: Fixed (424px);
-  top: 90px;
-  left: 851px;
-  padding: 16px;
-
+  height: 333px;
 `;
 
 
