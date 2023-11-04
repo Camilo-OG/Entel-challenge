@@ -6,7 +6,7 @@ export default function Navbar() {
     <Nav>
       <NavLogo src='/Group.png'></NavLogo>
       <NavStyledLinkContainer>
-      <NavStyledLink to={'/form'}>Formulario</NavStyledLink>
+      <NavStyledLink to={'/'}>Formulario</NavStyledLink>
       <NavStyledLink to={'/list'}>Lista Formulario</NavStyledLink>
       </NavStyledLinkContainer>
     </Nav>

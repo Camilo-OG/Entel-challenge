@@ -12,8 +12,8 @@ export const StyledContainer = styled.div`
   display:flex;
   flex-direction: column;
   justify-content: center;
-  width: 865px;
-  margin-bottom: 20px;
+  width: 825px;
+  margin: 20px;
 `
 export const StyledInputDiv = styled.div`
   display: flex;
@@ -31,7 +31,7 @@ export const StyledLabel = styled.label`
 export const GridDiv = styled.div`
   display: grid;
   grid-template-columns: 540px 250px;
-  gap: 70px;
+  gap: 30px;
 `
 export const StyledSpan = styled.span`
   color: red;
@@ -79,5 +79,33 @@ export const StyledP = styled.p`
 export const StyledGridDiv = styled.div`
   display: grid;
   grid-template-columns: 255px 255px 255px;
-  gap: 50px;
+  gap: 30px;
+  border-bottom: 1px solid #CCCCCC;
+  margin-bottom: 10px;
+  padding-bottom: 40px;
+`
+export const StyledDivContainer = styled.div`
+  border-bottom: 1px solid #CCCCCC;
+  margin-bottom: 10px;
+  padding-bottom: 40px;
+`
+export const StyledButton = styled.div`
+  border: none;
+  background-color: blue;
+  width: 140px;
+  height: 48px;
+  padding: 12px 16px;
+  border-radius: 100px;
+  color: white;
+  box-shadow: 0px 0px 0px 0px #00000000;
+  text-align: center;
+`
+export const StyledDivForm = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`
+export const StyledDivButton = styled.div`
+  display: flex;
+  justify-content: flex-end;
 `
